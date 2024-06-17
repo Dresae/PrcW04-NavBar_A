@@ -16,6 +16,7 @@ button{
     background: transparent;
     color: inherit;
     cursor: pointer;
+    size: 20px;
 }
 
 .navbar{
@@ -29,7 +30,7 @@ button{
     width: 100%;
     height: 80px;
     background: #101044;
-    color: #bfefb4;
+    color: #ffffff;
     font-family: 'Poppins';
 }
 
@@ -63,26 +64,26 @@ body.open .navbar-overlay{
 }
 
 .navbar-title{
-    margin: 0;
-    font-size: 16px;
+    margin: 0 0 0 60px;
+    font-size: 20px;
 }
 
 .navbar-menu{
-    position: fixed;
+    position: relative;
     z-index: 3;
     top: 0;
     left: 0;
     translate: -100% 0;
     width: 270px;
     height: 100%;
-    padding: 20px;
+    padding: 30px;
     display: flex;
-    gap: 8px;
+    gap: 10px;
     flex-direction: column;
     align-items: flex-start;
     background: #000;
     visibility: hidden;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 body.open .navbar-menu{
@@ -95,6 +96,7 @@ body.open .navbar-menu{
     background: transparent;
     padding: 0 8px;
     transition: all 0.3s;
+    font-size: 17px;
 }
 
 .navbar-menu > button.active{
@@ -102,7 +104,7 @@ body.open .navbar-menu{
 }
 
 .navbar-menu > button.active:hover{
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(135, 239, 232, 0.75);
 }
 
 @media only screen and (min-width: 600px){
