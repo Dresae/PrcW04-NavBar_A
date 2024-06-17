@@ -75,4 +75,4 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 ***
 
-![reading...](https://giphy.com/gifs/identities-Tf3mp01bfrrUc "Pokemon reading")
+![reading...](https://media.giphy.com/media/Tf3mp01bfrrUc/giphy.gif?cid=ecf05e47wajghtrc5targr7mju7coe0avdyurnehrr1krgdt&ep=v1_gifs_search&rid=giphy.gif&ct=g "Pokemon reading")
