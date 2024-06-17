@@ -38,7 +38,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ### Code:
 
 **@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');** 
-    * This line imports the Poppins font from Google Fonts. 
-    The **@import** rule is used to include external stylesheets. 
-    In this case, the stylesheet is hosted on Google Fonts and the font being imported is Poppins with different weights (300, 400, 500, 600). 
-    The **url() function** is used to specify the location of the external stylesheet.
+- This line imports the Poppins font from Google Fonts. 
+The **@import** rule is used to include external stylesheets. 
+In this case, the stylesheet is hosted on Google Fonts and the font being imported is Poppins with different weights (300, 400, 500, 600). 
+The **url() function** is used to specify the location of the external stylesheet.
