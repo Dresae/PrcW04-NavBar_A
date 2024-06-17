@@ -72,3 +72,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 - **@media only screen and (min-width: 600px){**
 >> This CSS code snippet is using a media query to apply specific styles when the screen width is at least 600 pixels.
+
+***
+
+![reading...](https://giphy.com/gifs/identities-Tf3mp01bfrrUc "Pokemon reading")
