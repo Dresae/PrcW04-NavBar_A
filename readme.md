@@ -42,8 +42,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ###  Code:
 -  **Importing Google family  font**
 >
-
-	```
+	```css
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 	```
 
@@ -52,7 +51,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Defining Box model**
 >
-    ```
+    ```css
 	*{
 		box-sizing:  border-box;
 	}
@@ -63,7 +62,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Setting the style for all buttons**
 >
-	```
+	```css
 	button{
 	}
 	```
@@ -72,7 +71,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Style for the navigation bar**
 >
-	```
+	```css
 	.navbar{
 	}
 	```
@@ -92,7 +91,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Covering NavBar technique**
 >
-	```
+	```css
 	.navbar-overlay{
 	}
 	```
@@ -101,7 +100,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Setting visibility properties to overlay**
 >
-    ```
+    ```css
 	body.open .navbar-overlay{
 	}
     ```
@@ -110,7 +109,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Burguer class**
 >
-	```
+	```css
 	.navbar-burger{
 	```
 
@@ -119,7 +118,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Styling navigation menu**
 >
-	```
+	```css
 	.navbar-menu{
 	}
 	```
@@ -129,7 +128,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **Setting the style for the button inside the navigation menu**
 >
-	```
+	```css
 	.navbar-menu > button{
 	}
 	```
@@ -138,7 +137,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 
 -  **@media only screen and (min-width: 600px){**
 >
-	```
+	```css
 	@media only screen and (min-width: 600px){
 	}
 	```
