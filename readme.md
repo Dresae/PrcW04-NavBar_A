@@ -135,13 +135,13 @@ body.open .navbar-overlay{
 > This styles the buttons inside the .navbar-menu class. It sets the text color to semi-transparent white, background to transparent, padding around the button text, a transition effect for all properties over 0.3 seconds, and a font size of 17 pixels.
 ***
 
--  **@media only screen and (min-width: 600px){**
+-  **Media query**
 >
 ```css
 @media only screen and (min-width: 600px){
 }
 ```
-> Here we uses media query to apply specific styles when the screen width is at least 600 pixels.
+> Lastly we uses media query to apply specific styles when the screen width is at least 600 pixels.
 
 ***
 
