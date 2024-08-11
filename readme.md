@@ -30,9 +30,7 @@ We start defining a navigation bar with a class of **"navbar"**, which contains 
 
 This overlay is likely used to provide a clickable area for opening or closing a menu.
 
-It continues with the class **"navbar-burger"**.
-
-When this button is clicked, it triggers the **JavaScript function "toggleMenuOpen()"**.
+It continues with the class **"navbar-burger"**. When this button is clicked, it triggers the **JavaScript function "toggleMenuOpen()"**.
 
 Inside the button, there is a **span** element with the class **"material-icons"** that displays the menu icon.
 
@@ -43,6 +41,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ##  CSS File
 ###  Code:
 -  **Importing Google family  font**
+>
 	```
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 	```
@@ -51,6 +50,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Defining Box model**
+>
     ```
 	*{
 		box-sizing:  border-box;
@@ -61,6 +61,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Setting the style for all buttons**
+>
 	```
 	button{
 	}
@@ -69,6 +70,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Style for the navigation bar**
+>
 	```
 	.navbar{
 	}
@@ -88,6 +90,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Covering NavBar technique**
+>
 	```
 	.navbar-overlay{
 	}
@@ -96,6 +99,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Setting visibility properties to overlay**
+>
     ```
 	body.open .navbar-overlay{
 	}
@@ -104,6 +108,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Burguer class**
+>
 	```
 	.navbar-burger{
 	```
@@ -112,6 +117,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Styling navigation menu**
+>
 	```
 	.navbar-menu{
 	}
@@ -121,6 +127,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **Setting the style for the button inside the navigation menu**
+>
 	```
 	.navbar-menu > button{
 	}
@@ -129,6 +136,7 @@ The **navbar-menu class** is used to style the entire navigation menu, and the *
 ***
 
 -  **@media only screen and (min-width: 600px){**
+>
 	```
 	@media only screen and (min-width: 600px){
 	}
