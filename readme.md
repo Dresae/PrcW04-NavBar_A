@@ -1,6 +1,6 @@
   
 
-#  Simple NavBar with accordion effect
+#  Simple NavBar with hamburguer effect
 Lets make a simple and responsive Navbar template.
 
 ##  Branches dev1 and dev2
